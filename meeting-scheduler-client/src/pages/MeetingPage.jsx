@@ -78,7 +78,7 @@ function MeetingPage() {
   const copyLink = () => { navigator.clipboard.writeText(shareUrl); setCopied(true); setTimeout(() => setCopied(false), 2000) }
 
   if (!meeting) return <div className='card loading'>Loading...</div>
-  const shareUrl = window.location.origin + '/m/' + shareCode
+  const shareUrl = window.location.origin + '/meeting-scheduler/m/' + shareCode
 
   return (
     <>
