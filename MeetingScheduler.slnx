@@ -1,0 +1,14 @@
+<Solution>
+  <Project Path="MeetingScheduler.Api/MeetingScheduler.Api.csproj" />
+  <Folder Name="/meeting-scheduler-client/">
+    <File Path="meeting-scheduler-client/package.json" />
+    <File Path="meeting-scheduler-client/index.html" />
+    <File Path="meeting-scheduler-client/vite.config.js" />
+    <File Path="meeting-scheduler-client/src/main.jsx" />
+    <File Path="meeting-scheduler-client/src/App.jsx" />
+    <File Path="meeting-scheduler-client/src/api.js" />
+    <File Path="meeting-scheduler-client/src/index.css" />
+    <File Path="meeting-scheduler-client/src/pages/HomePage.jsx" />
+    <File Path="meeting-scheduler-client/src/pages/MeetingPage.jsx" />
+  </Folder>
+</Solution>
